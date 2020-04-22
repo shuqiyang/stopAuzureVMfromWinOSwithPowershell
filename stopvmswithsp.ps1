@@ -1,4 +1,4 @@
-﻿### START - Stopping Azure VMs ####
+### START - Stopping Azure VMs ####
 $VMFile = "your dir\AzureVMs.txt"
 $ReportFile = "your dir\VMStopReport.txt"
 ##https://docs.microsoft.com/en-us/azure/active-directory/develop/howto-authenticate-service-principal-powershell#create-service-principal-with-self-signed-certificate
