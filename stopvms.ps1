@@ -1,6 +1,6 @@
 ﻿### START - Stopping Azure VMs ####
-$VMFile = "D:\your dir\AzureVMs.txt"
-$ReportFile = "D:\your dir\VMStopReport.txt"
+$VMFile = "your dir\AzureVMs.txt"
+$ReportFile = "your dir\VMStopReport.txt"
 
 Connect-AzAccount -Environment AzureChinaCloud -Subscription 'your subscription ID'
 
