@@ -1,0 +1,3 @@
+﻿RG1 VM1
+RG1 VM2
+RG2 VM3
