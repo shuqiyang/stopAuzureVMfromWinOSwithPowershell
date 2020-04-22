@@ -7,8 +7,6 @@ $TenantId = 'your TenantID'
 $ApplicationId = 'your service principle ApplicationID'
 Connect-AzAccount -Environment AzureChinaCloud -CertificateThumbprint $Thumbprint -ApplicationId $ApplicationId -Tenant $TenantId -ServicePrincipal 
 
-##Connect-AzAccount -Environment AzureChinaCloud -Subscription 'f7ccde76-13d3-4104-a67c-a396e59e872b'
-
 Add-Content $ReportFile "---------------------------------------------"
 $timestamp = Get-Date -Format "dddd MM/dd/yyyy HH:mm"
 $vmcount=1
