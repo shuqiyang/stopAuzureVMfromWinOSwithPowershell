@@ -1,4 +1,4 @@
-﻿### START - Stopping Azure VMs ####
+﻿### START - Stopping Azure VMs  ####
 $VMFile = "your dir\AzureVMs.txt"
 $ReportFile = "your dir\VMStopReport.txt"
 
